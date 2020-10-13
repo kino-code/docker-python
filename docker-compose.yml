@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    container_name: python-cron
+    build: .
+    restart: always
+    tty: true
+    volumes:
+      - '.:/usr/src/app'
+      - './root:/var/spool/cron/crontabs/root'
+    environment:
+      - 'EDITOR=vim'
