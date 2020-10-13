@@ -1,8 +1,8 @@
 # docker-python
 
 ## 起動</br>
-```git clone https://github.com/kino-code/docker-python.git docker-python```</br>
-```cd docker-python```</br>
+```git clone https://github.com/kino-code/docker-python.git /Users/kinocode/Documents/docker-python```</br>
+```cd /Users/kinocode/Documents/docker-python```</br>
 ```docker-compose up -d```</br></br>
 
 ## 確認方法</br>
