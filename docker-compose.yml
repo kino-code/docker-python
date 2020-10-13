@@ -1,12 +1,11 @@
-version: '3'
+version: "3.7"
 services:
-  app:
-    container_name: python-cron
+  jupyterlab:
     build: .
-    restart: always
-    tty: true
+    container_name: docker-python
     volumes:
-      - '.:/usr/src/app'
-      - './root:/var/spool/cron/crontabs/root'
+      - '/Users/kinocode/Documents/docker-python:/workspace'
     environment:
-      - 'EDITOR=vim'
+      - JUPYTER_ENABLE_LAB=yes
+    ports:
+      - "8888:8888"
