@@ -4,7 +4,7 @@ services:
     build: .
     container_name: docker-python
     volumes:
-      - '/Users/kinocode/Documents/docker-python:/workspace'
+      - '.:/workspace'
     environment:
       - JUPYTER_ENABLE_LAB=yes
     ports:
