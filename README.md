@@ -1,8 +1,8 @@
 # docker-python
 
 ## コンテナ作成方法</br>
-```git clone https://github.com/kino-code/docker-python.git /Users/kinocode/Documents/docker-python```</br>
-```cd /Users/kinocode/Documents/docker-python```</br>
+```git clone https://github.com/kino-code/docker-python.git (ディレクトリ名を記述)```</br>
+```cd (ディレクトリ名を記述)```</br>
 ```docker-compose up -d```</br></br>
 
 ## 確認方法</br>
