@@ -9,3 +9,10 @@
 cron.logファイルが作成される</br>
 1分毎にcron.logファイルに追記される</br>
 1分毎にcsvファイルが作成される</br>
+
+## Dockerの全削除の方法
+Dockerのイメージやコンテナを削除します。他のイメージやコンテナも削除されるのでそれをしっかり理解した上で使いましょう。
+```docker image prune -af```
+```docker volume prune -f```
+```docker container prune -f```
+```docker system prune -f```
